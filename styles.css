@@ -6,6 +6,8 @@
     -moz-transition: all .35s;
     transition: all .35s;
     padding: 15px 0;
+     
+    
     /* UNCOLLAPSED state */
   }
   .navbar-default.affix {
@@ -15,20 +17,38 @@
 }
 
 
-
-
-header {
-  padding: 250px;
-  text-align: left;
-  background-image: url(resources/hero-image.jpg);
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+.jumbotron{
+    background-image: url(resources/hero-image.jpg);
+    background-size:cover;
 }
 
-header h1 {
-  color: white;
-  font-size: 2.5em;
+.text-white{
+   color:white;
 }
+
+.featured-text{
+    margin-top:195px; 
+    margin-left:105px;
+    margin-bottom:75px;
+}
+
+
+.line-space{
+    line-height:35px;
+}
+#header-title{
+    color:#f8f8f8;
+    font-size: 44px;
+   
+}
+
+#mid-sect-border{
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#mid-sect-title{
+   color: #45454e;
+   font-size:32px;
+   line-height: 35px;
+}
+
