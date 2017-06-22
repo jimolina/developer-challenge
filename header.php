@@ -1,8 +1,8 @@
 <div class="jumbotron">
    <div class="container-fluid">
-       <div class="row">
+       <div class="row ">
            <div class="col-md-8 featured-text">
-            <p id="header-title"> We've created the product that will help your startup look better</p>
+               <p id="header-title"> <strong>We've created the product that will help your startup look better</strong></p>
             
             <h2 class="text-white"> You have the design, you have the code</h2>
            </div>

@@ -20,4 +20,5 @@
     <meta charset="UTF-8">
     <title>Challenge</title>
    <link href="styles.css" type="text/css" rel="stylesheet"/> 
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>   

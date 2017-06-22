@@ -10,6 +10,8 @@
     <?php include 'header.php'; ?>
     <!-- Markup for white information section -->
     <?php include 'midsection.php'; ?>   
+    <!-- Markup for product section -->
+    <?php include 'product_section.php'; ?>
      
         
     </body>

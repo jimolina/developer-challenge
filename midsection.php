@@ -17,7 +17,8 @@
     </div> <!-- End of first row -->
 
     
-     <div class="row" id="mid-sect-border">
+     <div class="row shift-row-right" style="padding-bottom:125px;">
+        <br/><br/> 
         <div class="col-md-4">
             <h3>High Resolution</h3>
            <p class="text-muted">We did a 4.5 high resolution photo that will suite even for a very large site</p>
@@ -37,5 +38,5 @@
             <h3>Feel our design</h3>
            <p class="text-muted"> Samples will show you the feeling of how to play around while using our components</p>
         </div>
-    </div>
+    </div> <!-- End of second row -->
 </div>

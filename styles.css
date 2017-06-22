@@ -16,7 +16,14 @@
   }
 }
 
+.product-blue{
+    background-color:#333d51;
+}
 
+.midsection-row-spacing{
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
 .jumbotron{
     background-image: url(resources/hero-image.jpg);
     background-size:cover;
@@ -26,16 +33,54 @@
    color:white;
 }
 
+
+.shift-row-right{
+   margin-left: 105px; 
+   padding-left:0;
+   
+}
+
 .featured-text{
-    margin-top:195px; 
-    margin-left:105px;
+    margin-top:175px; 
+    margin-left:120px;
     margin-bottom:75px;
 }
+
 
 
 .line-space{
     line-height:35px;
 }
+
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #00bf62;
+	color: #00bf62;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+
+.icon-spacing{
+    margin-right: 35px;
+}
+.none{
+    padding:0;
+    margin:0;
+}
+
 #header-title{
     color:#f8f8f8;
     font-size: 44px;
@@ -52,3 +97,17 @@
    line-height: 35px;
 }
 
+#product-body{
+    color:#a6b4c5;
+}
+#pull-down{
+    margin-top:115px;
+}
+
+#icons{
+    font-size:24px;
+}
+
+#product-green{
+    color:#00bf62;
+}
