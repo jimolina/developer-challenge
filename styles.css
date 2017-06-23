@@ -1,6 +1,6 @@
-/* Collapsing Navbar Styles */
+
 ul{
-    list-style-type: none;
+   list-style-type: none;
 }
 
 @media(min-width:768px) {
@@ -18,6 +18,7 @@ ul{
     /*COLLAPSED state */
   }
 }
+
 
 .product-blue{
     background-color:#333d51;
@@ -48,8 +49,6 @@ ul{
     margin-left:120px;
     margin-bottom:75px;
 }
-
-
 
 .line-space{
     line-height:35px;
@@ -114,3 +113,5 @@ ul{
 #product-green{
     color:#00bf62;
 }
+
+

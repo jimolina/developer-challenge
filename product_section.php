@@ -23,6 +23,7 @@
             </p>
             <br/>
             <button class = "btn btn-lg btn-primary outline" data-toggle="modal" data-target="#myModal">Try it now </button>
+            <br/><br/>
             </div>  
         </div>
     </div> <!-- End of first row -->
