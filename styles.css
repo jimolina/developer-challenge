@@ -1,4 +1,7 @@
 /* Collapsing Navbar Styles */
+ul{
+    list-style-type: none;
+}
 
 @media(min-width:768px) {
   .navbar-default {

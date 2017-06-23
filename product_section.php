@@ -22,7 +22,7 @@
               components are made in<br/> the same style
             </p>
             <br/>
-            <button class = "btn btn-lg btn-primary outline">Try it now </button>
+            <button class = "btn btn-lg btn-primary outline" data-toggle="modal" data-target="#myModal">Try it now </button>
             </div>  
         </div>
     </div> <!-- End of first row -->
