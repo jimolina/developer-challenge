@@ -7,13 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="stylesheet" href="assets/css/app.css?v=1.0">
     </head>
     <body class="container-fluid">
         <div class="general-container">
             <header class="head container">
                 <div class="logo middle">
-                    <img src="assets/images/logo-icon.png" class="mr-3" alt="Logo" /> <h3>Startup</h3>
+                    <img src="assets/images/logo-icon.png" class="mr-3" alt="Logo" /> <h3 class="logo__text">Startup</h3>
                 </div>
             </header>
             <nav class="navbar navbar-toggleable-md navbar-light" role="navigation">
@@ -81,12 +81,14 @@
                         <p class="">Samples will show you the feeling on how to play around using the components.</p>
                     </article>                
                 </div>
-                <section class="descriptions">
+            </main>
+            <section class="descriptions">
+                <div class="container">
                     <div class="row">
-                        <div class="col-5">
+                        <div class="col-md-5">
                             <img src="assets/images/product-image.jpg" class="img-fluid" alt="Product Image" />
                         </div>
-                        <div class="col-7">
+                        <div class="col-md-7">
                             <div class="container tabs">
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
@@ -105,25 +107,88 @@
 
                                 <!-- Tab panes -->
                                 <div class="tab-content">
-                                    <div class="tab-pane active" id="components" role="tabpanel">
+                                    <div class="tab-pane fade show active" id="components" role="tabpanel">
                                         <h3 class="title title__tabs">Multi useful components</h3>
                                         <p>Startup Design Framework contains components and complex blocks which can easily be integrated into almost any design. All of these compoenents are made in the same style.</p>
                                     </div>
-                                    <div class="tab-pane" id="trophy" role="tabpanel">
-                                        bbb
+                                    <div class="tab-pane fade" id="trophy" role="tabpanel">
+                                        <h3 class="title title__tabs">Multi useful components 2</h3>
+                                        <p>Startup Design Framework contains components and complex blocks which can easily be integrated into almost any design. All of these compoenents are made in the same style. 2</p>
                                     </div>
-                                    <div class="tab-pane" id="users" role="tabpanel">
-                                        bbb
+                                    <div class="tab-pane fade" id="users" role="tabpanel">
+                                        <h3 class="title title__tabs">Multi useful components 3</h3>
+                                        <p>Startup Design Framework contains components and complex blocks which can easily be integrated into almost any design. All of these compoenents are made in the same style. 3</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-success col-3" type="submit">Try it now</button>
+                                <button class="btn btn-outline-success" type="submit">Try it now</button>
                             </div>
                         </div>
                     </div>
-                </section>
-            </main>
-            <footer class="row">
-                Footer
+                </div>
+            </section>
+            <footer class="container">
+                <div class="row">
+                    <div class="col-sm text-center text-sm-left">
+                        <div class="logo">
+                            <h3 class="logo__text">Startup</h3>
+                        </div>
+                    </div>
+                    <div class="hidden-xs-down col-sm">
+                        <h5 class="title title__footer">About</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Carrer</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden-xs-down col-sm">
+                        <h5 class="title title__footer">Work</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Latest Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Brands</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden-xs-down col-sm">
+                        <h5 class="title title__footer">Stuff</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Privacy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Terms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Advertise</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden-sm-down col-sm subscribe">
+                        <h5 class="title title__footer">Subscribe</h5>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Email" aria-describedby="btn_subscribe">
+                            <span class="input-group-addon btn-role" id="btn_subscribe"><i class="fa fa-chevron-right"></i></span>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
 
