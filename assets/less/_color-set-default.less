@@ -9,6 +9,27 @@ body {
     background-color: @color-green-soft;
 }
 
+.has-error {
+    input {
+        border-color: @color-red;
+    }
+    .msn {
+        color: @color-red;
+    }
+}
+
+label {
+    &.required {
+        &::before{
+            color: @color-red;
+        }
+    }
+}
+
+small.required {
+    color: @color-red;
+}
+
 .title{
     color: @color-blue;
     &__tabs{

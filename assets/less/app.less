@@ -37,6 +37,12 @@ button, .btn-role {
     cursor: pointer;
 }
 
+.has-error {
+    .msn {
+        font-size: .8rem;
+    }
+}
+
 .btn {
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -228,4 +234,44 @@ button, .btn-role {
             }
         }
     }
+}
+
+label {
+    margin-bottom: 0;
+    &.required {
+        padding-left: 10px;
+        &::before{
+            content: '*';
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 12px;
+        }
+    }
+}
+
+.add-record {
+    min-width: @min-width;
+    .modal-header {
+        .font-worksand(0);
+        .modal-title {
+            width: 100%;
+            text-align: center;
+            .font-khula(0);
+        }
+        .close{
+            padding: 9px 6px;
+            top: -5px;
+            font-size: 2rem;
+            right: 4px;
+            position: absolute;
+        }
+    }
+}
+
+#alert-error-block{
+    width: 80%;
+    display: block;
+    margin: 0 auto;   
+    margin-top: 20px;
 }
