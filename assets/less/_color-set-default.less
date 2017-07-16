@@ -2,5 +2,58 @@
 
 body {
     color: @color-gray;
-    background-color: @color-gray-soft;
+    background-color: @color-white;
+}
+
+.title{
+    color: @color-blue;
+    &__tabs{
+        color: @color-white-soft;
+    }
+}
+
+.general-container {
+    header.head {
+        .logo{
+            h3 {
+                color: @color-blue;
+            }
+        }
+    }
+    nav {
+        #navbarTogglerHeader {
+            @media @larga-screen-max{
+                background-color: @color-transparent-white;
+            }
+        }
+        .nav-item {
+            @media @larga-screen-max{
+                border-bottom: 2px solid @color-transparent-gray;
+            }
+        }
+    }
+    aside {
+        color: @color-white;
+    }
+    main#content {
+        .descriptions {
+            background-color: @color-blue;
+            .nav-tabs {
+                .nav-link {
+                    color: @color-white-soft;
+                    &.active {
+                        background-color: @color-transparent;
+                        border-color: @color-transparent;
+                        color: @color-green;
+                    }
+                    &:hover {
+                        border-color: @color-transparent;
+                    }
+                }
+            }
+            .tab-content {
+                color: @color-gray-soft;
+            }
+        }
+    }
 }
