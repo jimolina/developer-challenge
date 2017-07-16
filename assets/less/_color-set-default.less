@@ -2,5 +2,75 @@
 
 body {
     color: @color-gray;
-    background-color: @color-gray-soft;
+    background-color: @color-white;
+}
+
+.btn-success {
+    background-color: @color-green-soft;
+}
+
+.title{
+    color: @color-blue;
+    &__tabs{
+        color: @color-white-soft;
+    }
+}
+
+.logo {
+    &__text {
+        color: @color-blue;
+    }
+}
+
+.general-container {
+    nav {
+        #navbarTogglerHeader {
+            @media @large-screen-max{
+                background-color: @color-transparent-white;
+            }
+        }
+        .nav-item {
+            @media @large-screen-max{
+                border-bottom: 2px solid @color-transparent-gray;
+            }
+        }
+    }
+    aside {
+        color: @color-white;
+    }
+    .descriptions {
+        background-color: @color-blue;
+        .nav-tabs {
+            .nav-link {
+                color: @color-white-soft;
+                &.active {
+                    background-color: @color-transparent;
+                    border-color: @color-transparent;
+                    color: @color-green;
+                }
+                &:hover {
+                    border-color: @color-transparent;
+                }
+            }
+        }
+        .tab-content {
+            color: @color-gray-soft;
+        }
+    }
+    footer{
+        .nav-item {
+            a {
+                color: @color-gray;
+            }
+        }
+        .subscribe {
+            input {
+                color: @color-blue;
+            }
+            .input-group-addon {
+                background-color: @color-gray-soft;
+                color: @color-white;
+            }
+        }
+    }
 }
